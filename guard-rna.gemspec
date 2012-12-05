@@ -17,4 +17,12 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "colorize"
   gem.add_dependency "guard"
+
+  gem.add_development_dependency "rspec"
+  gem.add_development_dependency "travis-lint"
+  gem.add_development_dependency "growl"
+  gem.add_development_dependency "guard-bundler"
+  gem.add_development_dependency "guard-rspec"
+  gem.add_development_dependency "rb-fsevent"
+
 end
