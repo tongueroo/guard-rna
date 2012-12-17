@@ -45,7 +45,7 @@ module Guard
     end
 
     def command
-      system("rna build")
+      system("rna generate")
     end
   end
 end
