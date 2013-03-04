@@ -45,7 +45,7 @@ module Guard
     end
 
     def command
-      system("rna generate")
+      system("rna generate --clean")
     end
   end
 end
